@@ -11,5 +11,6 @@ spec:
     protocol: TCP
     name: http
   selector:
-    name: nginx-container
+    type: front-node
+    app: nginx-app
   type: NodePort
